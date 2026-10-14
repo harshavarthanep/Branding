@@ -1,0 +1,23 @@
+{
+  "name": "Marque — Brand Intelligence Studio",
+  "short_name": "Marque",
+  "description": "Audit, score and level up any brand. Logo and colour analysis, gap reports, design tokens and pro-grade AI prompts for brand kits, pitch decks and mockups.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
+  "categories": ["design", "business", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Analyze a brand", "url": "./#analyze", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Colour studio", "url": "./#studio", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
